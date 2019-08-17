@@ -16,10 +16,10 @@ export default {
     HelloWorld
   },
   mounted() {
-      axios.post('/login', {
-          firstName: 'Fred',
-          lastName: 'Flintstone'
-      })
+    axios.post("/users", {
+      firstName: "Fred",
+      lastName: "Flintstone"
+    });
   }
 };
 </script>
