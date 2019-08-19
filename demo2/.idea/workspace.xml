@@ -7,13 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b91f81-629e-4a10-97a1-768d66b9096d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zz/login/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProject/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zz/domain/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zz/login/FindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo2_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo2_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo2_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/login/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webProject/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webProject/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webProject/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,14 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -57,12 +69,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="H:/basic-code/forJava" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaCode\demo2\src" />
+      <recent name="D:\javaCode\demo2" />
+      <recent name="D:\javaCode\demo2\src\cn\zz\util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.zz.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaCode\demo2\web\WEB-INF\lib" />
     </key>
@@ -81,6 +101,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="demo2:war exploded">
           <settings>
@@ -171,6 +193,7 @@
       <workItem from="1564727921125" duration="5000" />
       <workItem from="1565946349914" duration="127000" />
       <workItem from="1565946774573" duration="5302000" />
+      <workItem from="1566191910692" duration="13669000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1564401562816</created>

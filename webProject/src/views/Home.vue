@@ -16,9 +16,8 @@ export default {
     HelloWorld
   },
   mounted() {
-    axios.post("/users", {
-      firstName: "Fred",
-      lastName: "Flintstone"
+    axios.post("/demo2/login?a=b", {
+      apiMaster: "强仔"
     });
   }
 };
