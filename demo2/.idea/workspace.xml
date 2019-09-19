@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b91f81-629e-4a10-97a1-768d66b9096d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/login/login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webProject/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webProject/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/vue.config.js" afterDir="false" />
     </list>
@@ -64,6 +67,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -186,6 +192,10 @@
       <workItem from="1565946349914" duration="127000" />
       <workItem from="1565946774573" duration="5302000" />
       <workItem from="1566036004188" duration="54000" />
+      <workItem from="1568081601030" duration="30000" />
+      <workItem from="1568193133129" duration="77000" />
+      <workItem from="1568196032110" duration="5000" />
+      <workItem from="1568620987888" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1564401562816</created>
@@ -216,21 +226,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <option name="LAST_COMMIT_MESSAGE" value="a" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

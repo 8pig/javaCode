@@ -1,24 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    {{ text }}
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import axios from "axios";
 
 export default {
   name: "home",
-  components: {
-    HelloWorld
+  components: {},
+  data() {
+    return {
+      text: ""
+    };
   },
   mounted() {
-    axios.post("/demo2/login?a=b", {
-      apiMaster: "强仔"
-    });
+    axios
+      .post("/demo2/login?a=b", {
+        username: "强仔",
+        password: "123456"
+      })
+      .then(res => {
+        this.text = JSON.stringify(res);
+      });
   }
 };
 </script>
