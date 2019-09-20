@@ -7,12 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b91f81-629e-4a10-97a1-768d66b9096d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__5_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zz/service/UserServeceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/zz/login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/login/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webProject/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webProject/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webProject/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,6 +196,7 @@
       <workItem from="1568193133129" duration="77000" />
       <workItem from="1568196032110" duration="5000" />
       <workItem from="1568620987888" duration="4732000" />
+      <workItem from="1568960168114" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1564401562816</created>

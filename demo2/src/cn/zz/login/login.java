@@ -1,8 +1,13 @@
 package cn.zz.login;
 
+import cn.zz.dao.UserDao;
+import cn.zz.domain.User;
+import cn.zz.util.JDBCUtils;
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
+import com.mysql.jdbc.Statement;
+import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.io.IOUtils;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,6 +15,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,8 +31,11 @@ public class login extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(m1);
-        getJson(request, response, m1);//返回一个user对象
+//        System.out.println(m1+",m1");
+        System.out.println(m1.get("password"));
+        System.out.println(m1.get("username"));
+//        getJson(request, response, m1);//返回一个user对象
+
 
 
 
