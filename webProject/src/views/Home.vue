@@ -18,9 +18,9 @@ export default {
   },
   mounted() {
     axios
-      .post("/demo2/login?a=b", {
-        username: "强仔",
-        password: "123456"
+      .post("/demo2/login", {
+        username: "superbaby",
+        password: "12345"
       })
       .then(res => {
         this.text = JSON.stringify(res);
