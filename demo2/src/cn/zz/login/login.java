@@ -1,11 +1,6 @@
 package cn.zz.login;
 
-import cn.zz.dao.UserDao;
-import cn.zz.domain.User;
-import cn.zz.util.JDBCUtils;
 import com.alibaba.fastjson.JSON;
-import com.mysql.jdbc.Statement;
-import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.io.IOUtils;
 
 
@@ -15,9 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.lang.reflect.InvocationTargetException;
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,31 +27,6 @@ public class login extends HttpServlet {
         System.out.println(m1.get("password"));
         System.out.println(m1.get("username"));
 //        getJson(request, response, m1);//返回一个user对象
-
-
-
-
-        /* 获取数据 */
-
-        /* 封装USER 对象*/
-
-        /* 调用servive 查询*/
-
-        /* 判断登陆*/
-
-//        Connection conn = null;
-//        PreparedStatement stmt = null;
-//        try {
-//            conn = JDBCUtils.getConnection();
-//            String sql = "insert into user (username, password, create_time) values (?,?, now()) ";
-//            stmt = conn.prepareStatement(sql);
-//            stmt.setString(1,"赵洲");
-//            stmt.setString(2,"123456");
-//            int i;
-//            i = stmt.executeUpdate();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
 
 
 
