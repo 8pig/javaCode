@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b91f81-629e-4a10-97a1-768d66b9096d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zz/test/testUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zz/util/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zz/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zz/login/FindUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/login/FindUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zz/login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/login/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zz/util/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zz/test/testUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zz/test/testUserDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +256,8 @@
       <workItem from="1568196032110" duration="5000" />
       <workItem from="1568620987888" duration="4732000" />
       <workItem from="1568960168114" duration="16054000" />
-      <workItem from="1569220923923" duration="11050000" />
+      <workItem from="1569220923923" duration="11739000" />
+      <workItem from="1569477221297" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1564401562816</created>

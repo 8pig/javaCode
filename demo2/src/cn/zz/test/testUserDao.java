@@ -10,7 +10,8 @@ public class testUserDao {
     public static void main(String[] args) throws SQLException {
         UserDaoImpl userDao = new UserDaoImpl();
 //        userDao.findAll();
-        userDao.login("superbaby","12345");
+//        userDao.login("superbaby","12345");
+//        userDao.insert("nihao", "abc");
+        userDao.delete(8);
     }
-
 }
